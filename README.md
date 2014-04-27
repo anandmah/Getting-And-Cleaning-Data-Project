@@ -3,15 +3,10 @@ Title
 
 This is a readme file for the data analysis project of the Getting and Cleaning Data Course. 
 
-When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+This project involves the following activities:
 
-```{r}
-summary(cars)
-```
-
-You can also embed plots, for example:
-
-```{r fig.width=7, fig.height=6}
-plot(cars)
-```
-
+a. Merges the training and the test sets to create one data set.
+b. Extracts only the measurements on the mean and standard deviation for each measurement. 
+c. Uses descriptive activity names to name the activities in the data set
+d. Appropriately labels the data set with descriptive activity names. 
+e. Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
