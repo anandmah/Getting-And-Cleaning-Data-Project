@@ -46,4 +46,11 @@ newdf<-df[,matches]
 
 
 
+# Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
+tapply(df,df$activity.x,mean)
+tapply(df,df$activity.y,mean)
+
+
+
+
 
